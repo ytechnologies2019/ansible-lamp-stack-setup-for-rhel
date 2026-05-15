@@ -1,0 +1,6 @@
+---
+# handlers file for lamp
+- name: Service Restarted 
+  ansible.builtin.service:
+    name: "{{ services[0] }}"
+    state: restarted

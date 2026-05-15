@@ -1,0 +1,24 @@
+galaxy_info:
+  author: Thiha Thura
+  description: LAMP Stack (Linux, Apache, MariaDB, PHP) role for Ansible
+  company: Y-Technologies
+
+  license: MIT
+
+  min_ansible_version: "2.16"
+
+  platforms:
+    - name: EL
+      versions:
+        - "8"
+        - "9"
+        - "10"
+
+  galaxy_tags:
+    - linux
+    - apache
+    - mariadb
+    - php
+    - lamp
+
+dependencies: []
