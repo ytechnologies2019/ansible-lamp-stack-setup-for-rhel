@@ -1,0 +1,12 @@
+---
+# vars file for lamp
+packages:
+  - httpd
+  - mariadb-server
+  - php
+  - php-mysqlnd
+  - php-cli
+
+services:
+  - httpd
+  - mariadb
